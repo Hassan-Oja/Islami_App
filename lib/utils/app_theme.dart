@@ -8,5 +8,12 @@ class AppTheme {
       selectedItemColor: AppColors.whiteColor,
       unselectedItemColor: AppColors.blackColor,
     ),
+      appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          backgroundColor: AppColors.blackColor,
+          iconTheme: IconThemeData(
+              color: AppColors.primaryColor
+          )
+      )
   );
 }
