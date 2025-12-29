@@ -35,7 +35,7 @@ class _HadethItemState extends State<HadethItem> {
         vertical: height * 0.01,
       ),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20),
+        borderRadius: BorderRadius.circular(20),  
         color: AppColors.primaryColor,
         image: DecorationImage(image: AssetImage(AppAssets.hadethCardBG)),
       ),
